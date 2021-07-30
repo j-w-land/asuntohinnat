@@ -19,6 +19,8 @@ from django.urls import path, include
 print("URLROOT")
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('web.urls')),
-    path('/', include('web.urls')),
+    # path('', include('web.urls')),
+    # path('/', include('web.urls')),
+    path("", include('web.urls', namespace="web")),
+
 ]

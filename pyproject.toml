@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "poetry-asuntohinnat"
+version = "0.1.0"
+description = "asuntohinnat"
+authors = ["Juha Weiland <juha.weiland@swappie.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+asgiref = "^3.4.1"
+autopep8 = "^1.5.7"
+certifi = "^2021.5.30"
+chardet = "^4.0.0"
+Django = "^3.2.5"
+idna = "^3.2"
+pycodestyle = "^2.7.0"
+pytz = "^2021.1"
+requests = "^2.26.0"
+sqlparse = "^0.4.1"
+toml = "^0.10.2"
+typing-extensions = "^3.10.0"
+urllib3 = "^1.26.6"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

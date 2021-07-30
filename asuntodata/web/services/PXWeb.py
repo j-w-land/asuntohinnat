@@ -38,6 +38,7 @@ def api(url, query):
 
 
 def get_prices_by_zip(zip):
+    print("get_prices_by_zip")
     print(zip)
     query = [{
         "code": "Postinumero",
@@ -51,5 +52,5 @@ def get_prices_by_zip(zip):
     # print("prices_data")
     parsedData = parseResponse(prices_data)
     # print(parsedData)
-    print("parsedData")
+    # print("parsedData")
     return parsedData

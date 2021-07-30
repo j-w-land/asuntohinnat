@@ -1,3 +1,2 @@
-/py_env_asunnot/Include
-/py_env_asunnot/tcl
-/py_env_asunnot/Lib
+__pycache__/
+.idea/

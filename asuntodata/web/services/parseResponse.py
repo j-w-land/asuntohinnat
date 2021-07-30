@@ -56,10 +56,10 @@ def parseResponse(data):
             pos = pos + 1
 
             if pos == len(structure):
-                print("FINAL-test")
-                print(pos)
+                # print("FINAL-test")
+                # print(pos)
                 for objItem in objElement:
-                    print(count)
+                    # print(count)
                     count = count + 1
 
             return createObject(
@@ -79,18 +79,18 @@ def parseResponse(data):
 
     def createTotalObject(obj, structure):
         objKeys = list(structure.keys())
-        print(structure)
-        print("test")
+        # print(structure)
+        # print("test")
 
         for key in objKeys:
             if len(objKeys) == 0:
-                print("TEST-OLI-0")
+                # print("TEST-OLI-0")
                 obj[key] = []
                 obj[str(key+'_count')] = []
                 obj[str(key+'__zip')] = []
 
             else:
-                print("TEST-OLI-YLI-0")
+                 print("TEST-OLI-YLI-0")
 
     """
     const createTotalObject = (obj, structure) = > {
@@ -136,8 +136,8 @@ def parseResponse(data):
                           dataObject[Object.keys(dataObject)[0]])
     } """
 
-    print("MY_TESTxx")
-    print(totalObject)
+     #print("MY_TESTxx")
+    # print(totalObject)
     return dataObject
     '''
     resArr = []
